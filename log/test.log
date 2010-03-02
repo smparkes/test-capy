@@ -1,0 +1,324 @@
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HellosController#index (for 127.0.0.1 at 2010-03-01 17:51:03) [GET]
+  [4;36;1mHello Load (0.4ms)[0m   [0;1mSELECT * FROM `hellos` [0m
+Rendering template within layouts/hellos
+Rendering hellos/index
+  [4;35;1mHello Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `hellos`[0m
+Completed in 66ms (View: 55, DB: 2) | 200 OK [http://localhost/hellos]
+
+
+Processing HellosController#destroy (for 127.0.0.1 at 2010-03-01 17:51:03) [DELETE]
+  Parameters: {"id"=>"3"}
+  [4;36;1mHello Load (0.6ms)[0m   [0;1mSELECT * FROM `hellos` WHERE (`hellos`.`id` = 3) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mHello Destroy (0.4ms)[0m   [0;1mDELETE FROM `hellos` WHERE `id` = 3[0m
+  [4;35;1mSQL (3.8ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/hellos
+Completed in 12ms (DB: 5) | 302 Found [http://localhost/hellos/3]
+
+
+Processing HellosController#index (for 127.0.0.1 at 2010-03-01 17:54:25) [GET]
+  [4;36;1mHello Load (0.4ms)[0m   [0;1mSELECT * FROM `hellos` [0m
+Rendering template within layouts/hellos
+Rendering hellos/index
+Completed in 18ms (View: 13, DB: 0) | 200 OK [http://localhost/hellos]
+
+
+Processing HellosController#destroy (for 127.0.0.1 at 2010-03-01 17:54:26) [DELETE]
+  Parameters: {"id"=>"3"}
+  [4;35;1mHello Load (0.4ms)[0m   [0mSELECT * FROM `hellos` WHERE (`hellos`.`id` = 3) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mHello Destroy (0.3ms)[0m   [0mDELETE FROM `hellos` WHERE `id` = 3[0m
+  [4;36;1mSQL (8.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/hellos
+Completed in 16ms (DB: 9) | 302 Found [http://localhost/hellos/3]
+
+
+Processing HellosController#index (for 127.0.0.1 at 2010-03-01 17:55:33) [GET]
+  [4;35;1mHello Load (0.7ms)[0m   [0mSELECT * FROM `hellos` [0m
+Rendering template within layouts/hellos
+Rendering hellos/index
+Completed in 20ms (View: 14, DB: 1) | 200 OK [http://localhost/hellos]
+
+
+Processing HellosController#destroy (for 127.0.0.1 at 2010-03-01 17:55:34) [DELETE]
+  Parameters: {"id"=>"3"}
+  [4;36;1mHello Load (0.5ms)[0m   [0;1mSELECT * FROM `hellos` WHERE (`hellos`.`id` = 3) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mHello Destroy (0.3ms)[0m   [0;1mDELETE FROM `hellos` WHERE `id` = 3[0m
+  [4;35;1mSQL (8.3ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/hellos
+Completed in 17ms (DB: 9) | 302 Found [http://localhost/hellos/3]
+
+
+Processing HellosController#index (for 127.0.0.1 at 2010-03-01 17:56:39) [GET]
+  [4;36;1mHello Load (0.3ms)[0m   [0;1mSELECT * FROM `hellos` [0m
+Rendering template within layouts/hellos
+Rendering hellos/index
+Completed in 21ms (View: 17, DB: 0) | 200 OK [http://localhost/hellos]
+
+
+Processing HellosController#destroy (for 127.0.0.1 at 2010-03-01 17:56:40) [DELETE]
+  Parameters: {"id"=>"3"}
+  [4;35;1mHello Load (0.3ms)[0m   [0mSELECT * FROM `hellos` WHERE (`hellos`.`id` = 3) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mHello Destroy (0.3ms)[0m   [0mDELETE FROM `hellos` WHERE `id` = 3[0m
+  [4;36;1mSQL (8.3ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/hellos
+Completed in 16ms (DB: 9) | 302 Found [http://localhost/hellos/3]
+
+
+Processing HellosController#index (for 127.0.0.1 at 2010-03-01 17:58:41) [GET]
+  [4;35;1mHello Load (0.4ms)[0m   [0mSELECT * FROM `hellos` [0m
+Rendering template within layouts/hellos
+Rendering hellos/index
+Completed in 25ms (View: 15, DB: 0) | 200 OK [http://localhost/hellos]
+
+
+Processing HellosController#destroy (for 127.0.0.1 at 2010-03-01 17:58:42) [DELETE]
+  Parameters: {"id"=>"3"}
+  [4;36;1mHello Load (0.8ms)[0m   [0;1mSELECT * FROM `hellos` WHERE (`hellos`.`id` = 3) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mBEGIN[0m
+  [4;36;1mHello Destroy (0.4ms)[0m   [0;1mDELETE FROM `hellos` WHERE `id` = 3[0m
+  [4;35;1mSQL (3.3ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/hellos
+Completed in 12ms (DB: 5) | 302 Found [http://localhost/hellos/3]
+
+
+Processing HellosController#index (for 127.0.0.1 at 2010-03-01 17:59:08) [GET]
+  [4;36;1mHello Load (1.1ms)[0m   [0;1mSELECT * FROM `hellos` [0m
+Rendering template within layouts/hellos
+Rendering hellos/index
+Completed in 19ms (View: 14, DB: 1) | 200 OK [http://localhost/hellos]
+
+
+Processing HellosController#destroy (for 127.0.0.1 at 2010-03-01 17:59:09) [DELETE]
+  Parameters: {"id"=>"3"}
+  [4;35;1mHello Load (0.4ms)[0m   [0mSELECT * FROM `hellos` WHERE (`hellos`.`id` = 3) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mHello Destroy (0.4ms)[0m   [0mDELETE FROM `hellos` WHERE `id` = 3[0m
+  [4;36;1mSQL (4.8ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/hellos
+Completed in 12ms (DB: 6) | 302 Found [http://localhost/hellos/3]
+
+
+Processing HellosController#index (for 127.0.0.1 at 2010-03-01 17:59:44) [GET]
+  [4;35;1mHello Load (0.4ms)[0m   [0mSELECT * FROM `hellos` [0m
+Rendering template within layouts/hellos
+Rendering hellos/index
+Completed in 20ms (View: 15, DB: 0) | 200 OK [http://localhost/hellos]
+
+
+Processing HellosController#destroy (for 127.0.0.1 at 2010-03-01 17:59:44) [DELETE]
+  Parameters: {"id"=>"3"}
+  [4;36;1mHello Load (0.5ms)[0m   [0;1mSELECT * FROM `hellos` WHERE (`hellos`.`id` = 3) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mHello Destroy (0.4ms)[0m   [0;1mDELETE FROM `hellos` WHERE `id` = 3[0m
+  [4;35;1mSQL (6.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/hellos
+Completed in 13ms (DB: 7) | 302 Found [http://localhost/hellos/3]
+
+
+Processing HellosController#index (for 127.0.0.1 at 2010-03-01 17:59:44) [GET]
+  [4;36;1mHello Load (0.5ms)[0m   [0;1mSELECT * FROM `hellos` [0m
+Rendering template within layouts/hellos
+Rendering hellos/index
+Completed in 19ms (View: 15, DB: 1) | 200 OK [http://localhost/hellos]
+
+
+Processing HellosController#index (for 127.0.0.1 at 2010-03-01 18:05:13) [GET]
+  [4;35;1mHello Load (0.4ms)[0m   [0mSELECT * FROM `hellos` [0m
+Rendering template within layouts/hellos
+Rendering hellos/index
+Completed in 18ms (View: 14, DB: 0) | 200 OK [http://localhost/hellos]
+
+
+Processing HellosController#destroy (for 127.0.0.1 at 2010-03-01 18:05:13) [DELETE]
+  Parameters: {"id"=>"3"}
+  [4;36;1mHello Load (0.5ms)[0m   [0;1mSELECT * FROM `hellos` WHERE (`hellos`.`id` = 3) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mHello Destroy (22.8ms)[0m   [0;1mDELETE FROM `hellos` WHERE `id` = 3[0m
+  [4;35;1mSQL (20.7ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/hellos
+Completed in 51ms (DB: 44) | 302 Found [http://localhost/hellos/3]
+
+
+Processing HellosController#index (for 127.0.0.1 at 2010-03-01 18:05:14) [GET]
+  [4;36;1mHello Load (0.4ms)[0m   [0;1mSELECT * FROM `hellos` [0m
+Rendering template within layouts/hellos
+Rendering hellos/index
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://localhost/hellos]
+
+
+Processing HellosController#index (for 127.0.0.1 at 2010-03-01 18:05:50) [GET]
+  [4;35;1mHello Load (0.3ms)[0m   [0mSELECT * FROM `hellos` [0m
+Rendering template within layouts/hellos
+Rendering hellos/index
+Completed in 18ms (View: 14, DB: 0) | 200 OK [http://localhost/hellos]
+
+
+Processing HellosController#destroy (for 127.0.0.1 at 2010-03-01 18:05:51) [DELETE]
+  Parameters: {"id"=>"3"}
+  [4;36;1mHello Load (0.4ms)[0m   [0;1mSELECT * FROM `hellos` WHERE (`hellos`.`id` = 3) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mHello Destroy (0.4ms)[0m   [0;1mDELETE FROM `hellos` WHERE `id` = 3[0m
+  [4;35;1mSQL (11.2ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/hellos
+Completed in 20ms (DB: 12) | 302 Found [http://localhost/hellos/3]
+
+
+Processing HellosController#index (for 127.0.0.1 at 2010-03-01 18:05:51) [GET]
+  [4;36;1mHello Load (0.3ms)[0m   [0;1mSELECT * FROM `hellos` [0m
+Rendering template within layouts/hellos
+Rendering hellos/index
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/hellos]
+
+
+Processing HellosController#index (for 127.0.0.1 at 2010-03-01 18:07:40) [GET]
+  [4;35;1mHello Load (0.3ms)[0m   [0mSELECT * FROM `hellos` [0m
+Rendering template within layouts/hellos
+Rendering hellos/index
+Completed in 26ms (View: 19, DB: 0) | 200 OK [http://localhost/hellos]
+
+
+Processing HellosController#destroy (for 127.0.0.1 at 2010-03-01 18:07:40) [DELETE]
+  Parameters: {"id"=>"3"}
+  [4;36;1mHello Load (0.3ms)[0m   [0;1mSELECT * FROM `hellos` WHERE (`hellos`.`id` = 3) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mHello Destroy (0.3ms)[0m   [0;1mDELETE FROM `hellos` WHERE `id` = 3[0m
+  [4;35;1mSQL (6.1ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/hellos
+Completed in 13ms (DB: 7) | 302 Found [http://localhost/hellos/3]
+
+
+Processing HellosController#index (for 127.0.0.1 at 2010-03-01 18:07:41) [GET]
+  [4;36;1mHello Load (0.3ms)[0m   [0;1mSELECT * FROM `hellos` [0m
+Rendering template within layouts/hellos
+Rendering hellos/index
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/hellos]
+
+
+Processing HellosController#index (for 127.0.0.1 at 2010-03-01 18:08:28) [GET]
+  [4;35;1mHello Load (0.3ms)[0m   [0mSELECT * FROM `hellos` [0m
+Rendering template within layouts/hellos
+Rendering hellos/index
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/hellos]
+
+
+Processing HellosController#destroy (for 127.0.0.1 at 2010-03-01 18:08:29) [DELETE]
+  Parameters: {"id"=>"3"}
+  [4;36;1mHello Load (0.3ms)[0m   [0;1mSELECT * FROM `hellos` WHERE (`hellos`.`id` = 3) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mHello Destroy (0.3ms)[0m   [0;1mDELETE FROM `hellos` WHERE `id` = 3[0m
+  [4;35;1mSQL (41.5ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/hellos
+Completed in 48ms (DB: 42) | 302 Found [http://localhost/hellos/3]
+
+
+Processing HellosController#index (for 127.0.0.1 at 2010-03-01 18:08:29) [GET]
+  [4;36;1mHello Load (0.5ms)[0m   [0;1mSELECT * FROM `hellos` [0m
+Rendering template within layouts/hellos
+Rendering hellos/index
+Completed in 15ms (View: 10, DB: 1) | 200 OK [http://localhost/hellos]
+
+
+Processing HellosController#index (for 127.0.0.1 at 2010-03-01 18:10:43) [GET]
+  [4;35;1mHello Load (0.3ms)[0m   [0mSELECT * FROM `hellos` [0m
+Rendering template within layouts/hellos
+Rendering hellos/index
+Completed in 28ms (View: 24, DB: 0) | 200 OK [http://localhost/hellos]
+
+
+Processing HellosController#destroy (for 127.0.0.1 at 2010-03-01 18:10:44) [DELETE]
+  Parameters: {"id"=>"3"}
+  [4;36;1mHello Load (0.3ms)[0m   [0;1mSELECT * FROM `hellos` WHERE (`hellos`.`id` = 3) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mHello Destroy (0.3ms)[0m   [0;1mDELETE FROM `hellos` WHERE `id` = 3[0m
+  [4;35;1mSQL (5.7ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/hellos
+Completed in 12ms (DB: 6) | 302 Found [http://localhost/hellos/3]
+
+
+Processing HellosController#index (for 127.0.0.1 at 2010-03-01 18:10:44) [GET]
+  [4;36;1mHello Load (0.6ms)[0m   [0;1mSELECT * FROM `hellos` [0m
+Rendering template within layouts/hellos
+Rendering hellos/index
+Completed in 35ms (View: 30, DB: 1) | 200 OK [http://localhost/hellos]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HellosController#index (for 127.0.0.1 at 2010-03-01 18:11:34) [GET]
+  [4;36;1mHello Load (0.4ms)[0m   [0;1mSELECT * FROM `hellos` [0m
+Rendering template within layouts/hellos
+Rendering hellos/index
+  [4;35;1mHello Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `hellos`[0m
+Completed in 40ms (View: 35, DB: 1) | 200 OK [http://localhost/hellos]
+
+
+Processing HellosController#destroy (for 127.0.0.1 at 2010-03-01 18:11:35) [DELETE]
+  Parameters: {"id"=>"3"}
+  [4;36;1mHello Load (0.4ms)[0m   [0;1mSELECT * FROM `hellos` WHERE (`hellos`.`id` = 3) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mHello Destroy (0.3ms)[0m   [0;1mDELETE FROM `hellos` WHERE `id` = 3[0m
+  [4;35;1mSQL (6.5ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/hellos
+Completed in 10ms (DB: 7) | 302 Found [http://localhost/hellos/3]
+
+
+Processing HellosController#index (for 127.0.0.1 at 2010-03-01 18:11:35) [GET]
+  [4;36;1mHello Load (0.3ms)[0m   [0;1mSELECT * FROM `hellos` [0m
+Rendering template within layouts/hellos
+Rendering hellos/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/hellos]
+
+
+Processing HellosController#index (for 127.0.0.1 at 2010-03-01 18:11:58) [GET]
+  [4;35;1mHello Load (0.3ms)[0m   [0mSELECT * FROM `hellos` [0m
+Rendering template within layouts/hellos
+Rendering hellos/index
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/hellos]
+
+
+Processing HellosController#destroy (for 127.0.0.1 at 2010-03-01 18:11:58) [DELETE]
+  Parameters: {"id"=>"3"}
+  [4;36;1mHello Load (0.3ms)[0m   [0;1mSELECT * FROM `hellos` WHERE (`hellos`.`id` = 3) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mHello Destroy (0.7ms)[0m   [0;1mDELETE FROM `hellos` WHERE `id` = 3[0m
+  [4;35;1mSQL (6.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/hellos
+Completed in 10ms (DB: 7) | 302 Found [http://localhost/hellos/3]
+
+
+Processing HellosController#index (for 127.0.0.1 at 2010-03-01 18:11:58) [GET]
+  [4;36;1mHello Load (0.3ms)[0m   [0;1mSELECT * FROM `hellos` [0m
+Rendering template within layouts/hellos
+Rendering hellos/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/hellos]
+
+
+Processing HellosController#index (for 127.0.0.1 at 2010-03-01 18:13:15) [GET]
+  [4;35;1mHello Load (0.3ms)[0m   [0mSELECT * FROM `hellos` [0m
+Rendering template within layouts/hellos
+Rendering hellos/index
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/hellos]
+
+
+Processing HellosController#destroy (for 127.0.0.1 at 2010-03-01 18:13:15) [DELETE]
+  Parameters: {"id"=>"3"}
+  [4;36;1mHello Load (0.4ms)[0m   [0;1mSELECT * FROM `hellos` WHERE (`hellos`.`id` = 3) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mHello Destroy (0.3ms)[0m   [0;1mDELETE FROM `hellos` WHERE `id` = 3[0m
+  [4;35;1mSQL (10.6ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/hellos
+Completed in 14ms (DB: 11) | 302 Found [http://localhost/hellos/3]
+
+
+Processing HellosController#index (for 127.0.0.1 at 2010-03-01 18:13:15) [GET]
+  [4;36;1mHello Load (0.3ms)[0m   [0;1mSELECT * FROM `hellos` [0m
+Rendering template within layouts/hellos
+Rendering hellos/index
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://localhost/hellos]
