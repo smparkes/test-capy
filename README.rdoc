@@ -1,4 +1,4 @@
-== capy-test
+= capy-test
 
 This is just a bare bones app I use to sanity check cucumber with capybara-envjs.
 
