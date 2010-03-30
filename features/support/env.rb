@@ -18,8 +18,6 @@ require 'capybara/cucumber'
 require 'capybara/session'
 require 'cucumber/rails/capybara_javascript_emulation' # Lets you click links with onclick javascript handlers without using @culerity or @javascript
 
-require 'capybara/envjs'
-
 # Capybara defaults to XPath selectors rather than Webrat's default of CSS3. In
 # order to ease the transition to Capybara we set the default here. If you'd
 # prefer to use XPath just remove this line and adjust any selectors in your
@@ -57,5 +55,5 @@ Cucumber::Rails::World.use_transactional_fixtures = true
 require 'database_cleaner'
 DatabaseCleaner.strategy = :truncation
 
-# Capybara.app_host = "http://localhost:3000"
-# Cucumber::Rails::World.use_transactional_fixtures = false
+Capybara.app_host = "http://localhost:3000"
+Cucumber::Rails::World.use_transactional_fixtures = false
