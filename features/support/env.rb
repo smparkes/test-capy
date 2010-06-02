@@ -20,6 +20,7 @@ require 'cucumber/rails/capybara_javascript_emulation' # Lets you click links wi
 
 require 'capybara/envjs'
 
+# Need to run the server against the cucumber database when you do this
 # Capybara.app_host = "http://localhost:3000"
 
 # Capybara defaults to XPath selectors rather than Webrat's default of CSS3. In
