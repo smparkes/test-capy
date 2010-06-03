@@ -6,12 +6,20 @@
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <title>Hellos: <%= controller.action_name %></title>
   <%= stylesheet_link_tag 'scaffold' %>
+  <%= javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js' %>
 </head>
 <body>
 
 <p style="color: green"><%= flash[:notice] %></p>
 
 <%= yield %>
+
+<div id='foo'>hi!</div>
+
+<script>
+debug("H33low!");
+debug($("#foo").html());
+</script>
 
 </body>
 </html>
